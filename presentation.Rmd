@@ -1,5 +1,5 @@
 ---
-title: "What Characteristics make the Best Chocolate Bar?"
+title: "What characteristics make the Best Chocolate Bar?"
 subtitle: "An Analysis of Chocolate Bar Data"
 author: "CS Fan Club <br> Hugh, Innes, Kiera, Caitlyn, and Luca"
 institute: "University of Edinburgh"
@@ -50,12 +50,14 @@ class: center, middle
 
 class: inverse, center, middle
 
-# Data analysis plan
+# Section 1 (Introduction)
 
 
 ---
 
-# Hello World
+# - The data is found on TidyTuesday, the data is from Flavors of Cacao by Georgios and Kelsey. 
+# - There are 2530 Chocolate entries in the data.
+# - There are 10 variables which are: reference number, manufacturer name, manufacturer location, review date, country of origin, specific bean/bar name, cocoa percentage, ingredients, memorable characteristics, and rating.
 
 - Click the `Knit` button to compile your presentation
 
