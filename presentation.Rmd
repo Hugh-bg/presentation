@@ -1,7 +1,7 @@
 ---
-title: "Presentation title"
-subtitle: "Presentation subtitle (if any)"
-author: "Team name <br> Names of team members"
+title: "What characteristics make the Best Chocolate Bar?"
+subtitle: "An Analysis of Chocolate Bar Data"
+author: "CS Fan Club <br> Hugh, Innes, Kiera, Caitlyn, and Luca"
 institute: "University of Edinburgh"
 date: "`r Sys.Date()`"
 output:
@@ -21,6 +21,7 @@ library(tidyverse)
 library(palmerpenguins)
 library(knitr)
 library(xaringanthemer)
+library(tidytuesdayR)
 ```
 
 ```{r setup, include=FALSE}
@@ -29,24 +30,28 @@ knitr::opts_chunk$set(fig.retina = 3, dpi = 300, fig.width = 6, fig.asp = 0.618,
 ```
 
 ```{r load-data, include=FALSE}
-# Load your data here
+tuesdata <- tidytuesdayR::tt_load('2022-01-18')
+tuesdata <- tidytuesdayR::tt_load(2022, week = 3)
+
+chocolate <- tuesdata$chocolate
 ```
 
 ```{r include=FALSE}
 style_xaringan(
-  title_slide_background_image = "img/confetti.jpg"
+  title_slide_background_image = "img/chocolate.webp"
 )
 ```
 
 class: center, middle
 
-## A statement of the overall goal / research question
+## Our goal is to analyse data from chocolate bar ratings to discover what characteristic features make the highest rated chocolate. We will look into cocoa percentage, ingredients, cocoa bean origin, company location, memorable characteristics, and overall rating.
 
 ---
 
 class: inverse, center, middle
 
-# Section title
+# Data analysis plan
+
 
 ---
 
