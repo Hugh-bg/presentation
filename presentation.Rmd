@@ -1,5 +1,5 @@
 ---
-title: "What characteristics make the Best Chocolate Bar?"
+title: "What Characteristics make the Best Chocolate Bar?"
 subtitle: "An Analysis of Chocolate Bar Data"
 author: "CS Fan Club <br> Hugh, Innes, Kiera, Caitlyn, and Luca"
 institute: "University of Edinburgh"
