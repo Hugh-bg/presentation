@@ -69,6 +69,15 @@ glimpse(chocolate)
 ```
 
 ---
+# - Variables 
+
+#The variables that will primarily be used to answer our question are: Cocoa percentage, Country of bean origin, Ingredients, Number of ingredients and the most memorable characteristics, with our comparison group being the manufacturers. The remaining five variables will not be directly used to asnwer the question.
+
+---
+---
+
+
+---
 
 # xaringan
 
