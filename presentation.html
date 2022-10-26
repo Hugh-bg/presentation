@@ -54,12 +54,13 @@ class: inverse, center, middle
 
 # - The data is found on TidyTuesday, the data is from Flavors of Cacao by Georgios and Kelsey. 
 # - There are 2530 Chocolate entries in the data.
+
 --- 
 ---
-
 # - There are 10 variables which are: reference number, manufacturer name, manufacturer location, review date, country of origin, specific bean/bar name, cocoa percentage, ingredients, memorable characteristics, and rating.
 
 ---
+
 
 ```r
 glimpse(chocolate)
@@ -83,14 +84,32 @@ glimpse(chocolate)
 ---
 # - Variables 
 
-#The variables that will primarily be used to answer our question are: Cocoa percentage, Country of bean origin, Ingredients, Number of ingredients and the most memorable characteristics, with our comparison group being the manufacturers. The remaining five variables will not be directly used to asnwer the question.
-
----
----
-
+#The variables that will primarily be used to answer our question are: Cocoa percentage, Country of bean origin, Ingredients, Number of ingredients and the most memorable characteristics, with our comparison group being the manufacturers. The remaining five variables will not be directly used to answer the question.
 
 ---
 
+#- Data Analysis
+#- We will use various data visualizations using ggplot2, and functions to find means, ranges etc. This will help us understand relationships and patterns between different variables and the rating of the chocolate bar.
+
+---
+
+#- We will be tidying the data by splitting up some of the variables such as the ingredients into number of ingredients, and what exact ingredients are in the chocolate bar.
+
+---
+
+```r
+ggplot(data=chocolate,
+       aes(x=rating, y=cocoa_percent)) +
+  geom_point()
+```
+
+&lt;img src="presentation_files/figure-html/unnamed-chunk-3-1.png" width="80%" /&gt;
+
+---
+
+#- Any questions?
+
+---
 # xaringan
 
 - The presentation is created using the `xaringan` package
@@ -153,7 +172,7 @@ print(ave)
 - goes here
 ]
 .pull-right[
-&lt;img src="presentation_files/figure-html/unnamed-chunk-3-1.png" width="100%" /&gt;
+&lt;img src="presentation_files/figure-html/unnamed-chunk-4-1.png" width="100%" /&gt;
 ]
 
 ---
