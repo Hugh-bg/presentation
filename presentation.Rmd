@@ -62,12 +62,11 @@ class: inverse, center, middle
 
 # - There are 10 variables which are: reference number, manufacturer name, manufacturer location, review date, country of origin, specific bean/bar name, cocoa percentage, ingredients, memorable characteristics, and rating.
 
-
 ---
+```{r include=FALSE}
+glimpse(chocolate)
 
-class: inverse, middle, center
-
-# Using xaringan
+```
 
 ---
 
